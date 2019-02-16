@@ -1,5 +1,7 @@
-# your code goes here
+# sort by reverse
 a=int(input())
 b=list(map(int,input().split()))
-c=b.sort()
-print(c)
+b.sort()
+c=b[::-1]
+for i in c:
+	print(i)
