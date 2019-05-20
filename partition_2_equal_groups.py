@@ -5,6 +5,6 @@ for n in range(0,N):
 	if(n*A + n*B)==N:
 		flag=1
 if flag==1:
-	print("yes")
+	print("YES")
 else:
-	print("no")
+	print("NO")
